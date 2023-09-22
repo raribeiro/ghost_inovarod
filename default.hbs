@@ -59,12 +59,14 @@
 
             <nav class="gh-head-menu">
                 {{navigation}}
-                <li class="nav">
-                    <a href="#" target="_blank">LinkedIn</a>
-                </li>
-                <li class="nav">
-                    <a href="#" target="_blank">Instagram</a>
-                </li>
+                <ul class="nav">
+                    <li>
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i> Instagram</a>
+                    </li>
+                </ul>
                 {{#unless @site.members_enabled}}
                     {{#match @custom.navigation_layout "Stacked"}}
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>

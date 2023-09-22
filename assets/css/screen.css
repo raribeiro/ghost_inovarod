@@ -455,6 +455,17 @@ hr {
     font-size: clamp(3.2rem, 2.4rem + 2.5vw, 6.4rem);
 }
 
+.title-contents {
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.title-contents > h2 {
+    color: #1564CC;
+}
+
 @media (max-width: 991px) {
     .has-classic-feed .gh-card-link {
         flex-direction: column;
